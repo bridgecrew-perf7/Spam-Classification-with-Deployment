@@ -59,7 +59,7 @@ To run this project , install [**python**](https://www.python.org/) locally and 
 	pip install -r requirement.txt
 ```
 
-else you can use the [google colab notebook]() for running the code online without installing any libraries , packages and dependencies.
+else you can use the [google colab notebook](Spam_Classifier.ipynb) for running the code online without installing any libraries , packages and dependencies.
 
 ## Dataset
 
