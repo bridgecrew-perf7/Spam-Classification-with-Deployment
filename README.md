@@ -1,6 +1,8 @@
 
 # Spam Classification
 
+>Project status : Active and Incomplete
+
 
 ## Table of content :
 * **Project intro**
