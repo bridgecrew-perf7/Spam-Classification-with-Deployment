@@ -50,6 +50,9 @@ This project is created using [**python**](https://www.python.org/) and other li
 * [NLTK](https://www.nltk.org/)
 * etc.
 
+![image](https://user-images.githubusercontent.com/85100877/143047907-f5b9f36f-35d9-41b9-8bfe-d9ed224bf642.png)
+
+
 The other librarires are enlisted in the requirement.txt file.
 
 ## Setup
@@ -63,6 +66,9 @@ To run this project , install [**python**](https://www.python.org/) locally and 
 
 else you can use the [google colab notebook](Spam_Classifier.ipynb) for running the code online without installing any libraries , packages and dependencies.
 
+![image](https://user-images.githubusercontent.com/85100877/143045414-3468cf84-395e-4ad5-8f2c-cc7ab878b3f7.png)
+
+
 ## Dataset
 
 
@@ -71,6 +77,9 @@ The dataset used in this project is available in [Kaggle](https://www.kaggle.com
 The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
 
 The files contain one message per line. Each line is composed by two columns: v1 contains the label (ham or spam) and v2 contains the raw text.
+
+<img width="374" alt="image" src="https://user-images.githubusercontent.com/85100877/143047742-fa19a55b-b1a4-4e9c-acf7-22ca0b61a2d5.png">
+
 
 
 
@@ -130,3 +139,19 @@ Else the model needs to be re-trained ( by using another algorithm or by paramet
 
 
 Both model and the vectorizer needs to be saved for the deployment or future use.
+
+
+
+
+# 4.Deployment
+
+Hence , the model is created using machine learning . The model needs to be deployed for its practical use.
+
+We create a Web-App using the [Flask](https://flask.palletsprojects.com/en/2.0.x/). 
+
+![image](https://user-images.githubusercontent.com/85100877/143044908-a797ef8b-cfd6-41fe-a33f-390eb16c9111.png)
+
+Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.
+
+
+The sample Deployment web page looks like :: 
