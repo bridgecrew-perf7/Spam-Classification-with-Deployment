@@ -53,7 +53,7 @@ This project is created using [**python**](https://www.python.org/) and other li
 * [NLTK](https://www.nltk.org/)
 * etc.
 
-![image](https://user-images.githubusercontent.com/85100877/143047907-f5b9f36f-35d9-41b9-8bfe-d9ed224bf642.png)
+<img height='300' width='300' src="https://user-images.githubusercontent.com/85100877/143047907-f5b9f36f-35d9-41b9-8bfe-d9ed224bf642.png">
 
 
 The other librarires are enlisted in the requirement.txt file.
@@ -69,7 +69,7 @@ To run this project , install [**python**](https://www.python.org/) locally and 
 
 else you can use the [google colab notebook](Spam_Classifier.ipynb) for running the code online without installing any libraries , packages and dependencies.
 
-![image](https://user-images.githubusercontent.com/85100877/143045414-3468cf84-395e-4ad5-8f2c-cc7ab878b3f7.png)
+<img height='300' width='800' src='https://user-images.githubusercontent.com/85100877/143045414-3468cf84-395e-4ad5-8f2c-cc7ab878b3f7.png'>
 
 
 ## Dataset
@@ -98,25 +98,25 @@ For that , we will be using **Python** Language as it is suitable and contains v
 Alternatively , **R** language can also be used.
 
 The pie-chart of value counts is as :
-![pie1](https://user-images.githubusercontent.com/85100877/149865604-b7a8ab5f-1d34-4ef2-95e3-7f7e6bd6ddc1.png)
+<img height='400' width='400' src='https://user-images.githubusercontent.com/85100877/149865604-b7a8ab5f-1d34-4ef2-95e3-7f7e6bd6ddc1.png'>
 
 The data is highly imbalanced , so we need to slice it to make it balanced.
 The pie-chart of balanced data is :
-![pie2](https://user-images.githubusercontent.com/85100877/149865785-2c84df94-394a-4efb-b744-f251f5fa49eb.png)
+<img height='400' width='400' src='https://user-images.githubusercontent.com/85100877/149865785-2c84df94-394a-4efb-b744-f251f5fa49eb.png'>
 
 
 
 The word cloud of spam messages is as : 
 
-![wordcloud1](https://user-images.githubusercontent.com/85100877/149865894-c8a4ceae-9c8a-4644-ab40-e69bccf84b8a.png)
+<img height='400' width='400' src='https://user-images.githubusercontent.com/85100877/149865894-c8a4ceae-9c8a-4644-ab40-e69bccf84b8a.png'>
 
 
 The word cloud of ham messages is as :
 
-![wordcloud2](https://user-images.githubusercontent.com/85100877/149865924-d40947f5-6f8a-4848-983d-4a14d3deb9e9.png)
+<img height='400' width='400' src='https://user-images.githubusercontent.com/85100877/149865924-d40947f5-6f8a-4848-983d-4a14d3deb9e9.png'>  
 
 For running the project , python must be installed in your local system.
-The required packages and libraries are listed in [requirement.txt](requirement.txt).
+The required packages and libraries are listed in [requirement.txt](requirements.txt).
 
 You can also use **Google-Colab** . **Colaboratory**, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education.
 The colab notebook is also uploaded here.
