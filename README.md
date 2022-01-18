@@ -1,7 +1,7 @@
 
 # Spam Classification
 
->Project status : Active and Incomplete
+>Project status : Active and Version : 1.00
 
 
 ## Table of content :
@@ -76,10 +76,26 @@ The dataset used in this project is available in [Kaggle](https://www.kaggle.com
 
 The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
 
+The pie-chart of value counts is as :
+![pie1](https://user-images.githubusercontent.com/85100877/149865604-b7a8ab5f-1d34-4ef2-95e3-7f7e6bd6ddc1.png)
+
+The data is highly imbalanced , so we need to slice it to make it balanced.
+The pie-chart of balanced data is :
+![pie2](https://user-images.githubusercontent.com/85100877/149865785-2c84df94-394a-4efb-b744-f251f5fa49eb.png)
+
 The files contain one message per line. Each line is composed by two columns: v1 contains the label (ham or spam) and v2 contains the raw text.
 
 <img width="374" alt="image" src="https://user-images.githubusercontent.com/85100877/143047742-fa19a55b-b1a4-4e9c-acf7-22ca0b61a2d5.png">
 
+
+The word cloud of spam messages is as : 
+
+![wordcloud1](https://user-images.githubusercontent.com/85100877/149865894-c8a4ceae-9c8a-4644-ab40-e69bccf84b8a.png)
+
+
+The word cloud of ham messages is as :
+
+![wordcloud2](https://user-images.githubusercontent.com/85100877/149865924-d40947f5-6f8a-4848-983d-4a14d3deb9e9.png)
 
 
 
@@ -110,7 +126,7 @@ And then , we have to import our dataset which contains the messages with the la
 
 We have our dataset in the **csv** format . The v2 column contains message and v1 contains label.
 We import our data using **pandas** library and save as the dataframe. 
-
+We slice the dataset to make it balanced.
 
 The message we have in our dataset might not be clean . So we have to remove some unwanted stuffs like stopwords (i.e. "just" ,"is","oh","an" ,etc. ) and we also have to reduce the word into the word root form ( i.e. playing,plays,played to play, ).
 we can do it so by using **Lamatization process**. The **NLTK** library provides the tool for that.
@@ -119,7 +135,7 @@ we can do it so by using **Lamatization process**. The **NLTK** library provides
 After this , we have to convert the words into vectors because the machine learning algorithm can't be directly fed with strings or characters . To we have to convert the sentences into vectors (i.e. numeric matrix )
 This process is called feature extraction.
 There are multiple tools for that like **Countvectorizer ,TF-IDF, word2vec**,etc. 
-We are here using **Countvectorizer** which is one the widely used one.
+We are here using **TF-IDF** which is one of the widely used one.
 
 
 Then , we split the dataset into training and testing (in the ratio of 7:3).
@@ -155,3 +171,4 @@ Flask is a micro web framework written in Python. It is classified as a microfra
 
 
 The sample Deployment web page looks like :: 
+
