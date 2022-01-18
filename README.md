@@ -22,7 +22,7 @@
 * **Project Description**
 * **Codes and technical aspects**
 * **Deployment**
-* **Credits and My info**
+* **Credits and My intro**
 
 # 1. Project introduction
 
