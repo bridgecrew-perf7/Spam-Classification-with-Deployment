@@ -97,11 +97,11 @@ This project is entirely based on the machine learning and Natural language proc
 For that , we will be using **Python** Language as it is suitable and contains various libraries and packages  , and has easy syntax.
 Alternatively , **R** language can also be used.
 
-The pie-chart of value counts is as :
+The pie-chart of value counts is as :  
 <img height='400' width='400' src='https://user-images.githubusercontent.com/85100877/149865604-b7a8ab5f-1d34-4ef2-95e3-7f7e6bd6ddc1.png'>
 
-The data is highly imbalanced , so we need to slice it to make it balanced.
-The pie-chart of balanced data is :
+The data is highly imbalanced , so we need to slice it to make it balanced.  
+The pie-chart of balanced data is :  
 <img height='400' width='400' src='https://user-images.githubusercontent.com/85100877/149865785-2c84df94-394a-4efb-b744-f251f5fa49eb.png'>
 
 
