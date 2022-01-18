@@ -76,26 +76,10 @@ The dataset used in this project is available in [Kaggle](https://www.kaggle.com
 
 The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
 
-The pie-chart of value counts is as :
-![pie1](https://user-images.githubusercontent.com/85100877/149865604-b7a8ab5f-1d34-4ef2-95e3-7f7e6bd6ddc1.png)
-
-The data is highly imbalanced , so we need to slice it to make it balanced.
-The pie-chart of balanced data is :
-![pie2](https://user-images.githubusercontent.com/85100877/149865785-2c84df94-394a-4efb-b744-f251f5fa49eb.png)
-
 The files contain one message per line. Each line is composed by two columns: v1 contains the label (ham or spam) and v2 contains the raw text.
 
 <img width="374" alt="image" src="https://user-images.githubusercontent.com/85100877/143047742-fa19a55b-b1a4-4e9c-acf7-22ca0b61a2d5.png">
 
-
-The word cloud of spam messages is as : 
-
-![wordcloud1](https://user-images.githubusercontent.com/85100877/149865894-c8a4ceae-9c8a-4644-ab40-e69bccf84b8a.png)
-
-
-The word cloud of ham messages is as :
-
-![wordcloud2](https://user-images.githubusercontent.com/85100877/149865924-d40947f5-6f8a-4848-983d-4a14d3deb9e9.png)
 
 
 
@@ -110,6 +94,23 @@ This project is entirely based on the machine learning and Natural language proc
 For that , we will be using **Python** Language as it is suitable and contains various libraries and packages  , and has easy syntax.
 Alternatively , **R** language can also be used.
 
+The pie-chart of value counts is as :
+![pie1](https://user-images.githubusercontent.com/85100877/149865604-b7a8ab5f-1d34-4ef2-95e3-7f7e6bd6ddc1.png)
+
+The data is highly imbalanced , so we need to slice it to make it balanced.
+The pie-chart of balanced data is :
+![pie2](https://user-images.githubusercontent.com/85100877/149865785-2c84df94-394a-4efb-b744-f251f5fa49eb.png)
+
+
+
+The word cloud of spam messages is as : 
+
+![wordcloud1](https://user-images.githubusercontent.com/85100877/149865894-c8a4ceae-9c8a-4644-ab40-e69bccf84b8a.png)
+
+
+The word cloud of ham messages is as :
+
+![wordcloud2](https://user-images.githubusercontent.com/85100877/149865924-d40947f5-6f8a-4848-983d-4a14d3deb9e9.png)
 
 For running the project , python must be installed in your local system.
 The required packages and libraries are listed in [requirement.txt](requirement.txt).
