@@ -11,8 +11,8 @@
             border: darkgrey;
         }
         form {
-            background-color: darkseagreen;
-            border: solid red 2px;
+            background-color: burlywood;
+            border: solid black 2px;
             align-self: center;
             margin: 25px 15px 15px 25px;
         }
@@ -23,19 +23,29 @@
     <div>
     <center>
     <h1>Spam Classifier</h1>
-    <form action="{{url_for('main')}}" method="post" >
+    <form action="{{url_for('predict')}}" method="post"  >
         <br><br>
-        Input : 
-        <input type="text" placeholder="Enter your Text here"  style="width: 450px; height: 150px;"><br><br>
-        <button style="height:35px;width:100px;">Submit</button><br><br>
-        <strong>{{prediction}}</strong><br><br><br>
+        Input :
+        <textarea name="message" id="001" cols="50" rows="10"></textarea><br><br>
+        <input type="submit" class="btn-info" value="predict"> <br><br>
+        <strong style="border: solid blue 1px;">
+            {% if prediction == 1%}
+	        <h2 style="color:red;">Spam : Be aware</h2>
+	        {% elif prediction == 0%}
+	        <h2 style="color:green;">Not Spam : Looks Safe</h2>
+	        {% endif %}
+
+        </strong><br><br><br>
     </form>
     <br><br>
-    © 2022-Nitish-Pandey <br><br>
-    <strong>Contact me : </strong><br>
-    Github : <a href="http://www.github.com/nitish-pandey">@nitish-pandey</a><br>
-    Linked In : <a href="https://www.linkedin.com/in/nitish-pandey-250b84224/">nitish-pandey-250b84224</a><br>
-    Instagram : <a href="https://www.instagram.com/n.pand3y/">@n.pand3y </a><br>
+    <footer>
+        © 2022-Nitish-Pandey <br><br>
+        <strong>Contact me : </strong><br>
+        Github : <a href="http://www.github.com/nitish-pandey">@nitish-pandey</a><br>
+        Linked In : <a href="https://www.linkedin.com/in/nitish-pandey-250b84224/">nitish-pandey-250b84224</a><br>
+        Instagram : <a href="https://www.instagram.com/n.pand3y/">@n.pand3y </a><br>
+    </footer>
+    
 </center>
 </div>   
 </body>
