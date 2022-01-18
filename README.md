@@ -9,7 +9,7 @@
 
         1. General info
 
-        2. Methods used
+        2. Skills Required
 
         3. Technologies used
 
@@ -30,7 +30,9 @@
 
 This project creates the machine learning model that helps us to predict whether the given text message is spam or not.
 
-## Methods used
+## Skills Required
+
+   * Programming Language - Python 
 
    * Machine Learning
 
