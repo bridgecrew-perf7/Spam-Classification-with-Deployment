@@ -22,6 +22,7 @@
 * **Project Description**
 * **Codes and technical aspects**
 * **Deployment**
+* **Credits and My info **
 
 # 1. Project introduction
 
@@ -173,3 +174,35 @@ Flask is a micro web framework written in Python. It is classified as a microfra
 
 The sample Deployment web page looks like :: 
 
+# 5. Credits and My intro
+
+This project is entirely based on the Machine Learning Algorithms and Natural Language Processing.
+
+This project is created by : me.
+
+## *About Me*
+
+Myself ( Nitish Pandey )....  
+I am currently pursuating graduation in Bachelor of Technology ( B.Tech ) from Kalinga Institute of Industrial Technology (KIIT), Bhuwaneswor- (2020-24).    
+
+I am a Machine Learning enthusiast and Competitive programmer ,  
+doing various projects in Machine Learning / Data Science and learning competitive programming .   
+
+## Skills I acquire :  
+    * Programming Language ( C/C++ and Python )
+
+    * Data Science and Machine Learning ( along with Deep Learning ) 
+
+    * Problem Solving ( Competitive Programming and Algorithms )
+
+    * And Various SoftCore Skills ( like critical thinking ,time management , Project Management , Communications Skill , etc. )
+
+
+
+
+
+Feel free to contact me :  
+  
+Github : [@nitish-pandey](https://www.github.com/nitish-pandey)  
+Linked In : [nitish-pandey-250b84224](https://www.linkedin.com/in/nitish-pandey-250b84224/)  
+Instagram : [@n.pand3y](http://www.instagram/n.pand3y)
